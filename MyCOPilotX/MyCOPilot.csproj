@@ -133,6 +133,14 @@
     <AndroidResource Include="Resources\drawable\SplashScreen.PNG" />
     <AndroidResource Include="Resources\drawable\Shortnessofbreath.PNG" />
     <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\background_splash.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\SplashScreen.PNG" />
+    <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.PNG" />
+    <AndroidResource Include="Resources\mipmap-mdpi\ic_launcher.PNG" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.PNG" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.PNG" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
