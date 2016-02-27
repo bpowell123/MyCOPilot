@@ -29,10 +29,19 @@ namespace MyCOPilot
 			// Get our button from the layout resource,
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
+			Button button2 = FindViewById<Button> (Resource.Id.button1); 
 
 			SetupBand();
 
 			button.Click += delegate
+			{
+				if (myBand != null && myBand.BandClient.IsConnected)
+					button.Text = string.Format("Connected to {0}!", myBand.Name);
+				else
+					Toast.MakeText(this, "Band not yet connected or not found!", ToastLength.Long);
+			};
+
+			button2.Click += delegate
 			{
 				if (myBand != null && myBand.BandClient.IsConnected)
 					button.Text = string.Format("Connected to {0}!", myBand.Name);
