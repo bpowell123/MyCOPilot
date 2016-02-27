@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("MyCOPilot.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("MyCOPilotX.Resource", IsApplication=true)]
 
-namespace MyCOPilot
+namespace MyCOPilotX
 {
 	
 	
