@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace MyCOPilot
 {
+	
 	[Activity (Label = "MyCOPilot", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
